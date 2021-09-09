@@ -60,7 +60,7 @@ window.title("Watermark Image - Application")
 window.geometry("750x690")
 
 # Image
-im = Image.open("cat.jpg")
+im = Image.open("images/cat.jpg")
 
 size = (750, 550)
 im.thumbnail(size)
